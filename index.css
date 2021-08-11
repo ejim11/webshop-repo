@@ -495,6 +495,7 @@ p.hh a:hover{
     display: block;
     font-size: 1rem;
     padding: .3rem 0;
+    text-transform: capitalize;
 }
 .footericons{
     display: flex;
