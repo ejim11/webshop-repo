@@ -491,6 +491,9 @@ p.hh a:hover{
     padding: 1rem 1rem;
     margin-top: 1rem;
 }
+.footermenu{
+    list-style-type: none;
+}
  .footermenu li a{
     display: block;
     font-size: 1rem;
