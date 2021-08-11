@@ -482,3 +482,45 @@ p.hh a:hover{
         border: 1px solid #db4b66;
     }
 }
+
+/*footer design*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 12, 20);
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+}
+ .footermenu li a{
+    display: block;
+    font-size: 1rem;
+    padding: .3rem 0;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0;
+}
+.footericons a{
+    margin: 0 .3rem;
+}
+.footericons a:hover{
+    color: #db4b66;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+}
+/*media query for 760px upwards*/
+@media all and (min-width:760px){
+    .footermenu li a{
+        color: #fff;
+    }
+    .footericons a{
+        color: #fff;
+        margin: 0 1rem;
+    }
+    .footer p{
+        margin: 1rem 0;
+    }
+}
